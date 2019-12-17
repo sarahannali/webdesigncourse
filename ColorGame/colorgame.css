@@ -1,12 +1,59 @@
 .square{
     width: 30%;
-    background: purple;
-    padding-top: 30%;
+    background: black;
+    padding-bottom: 30%;
     float:left;
     margin: 1.66%;
+    display:block;
+    border-radius: 50%;
+    transition: background 0.5s;
+    --webkit-transition: background 0.5s;
+    -moz-transition: background 0.5s;
 }
 
 .colorsquares{
     max-width:60%;
     margin:0 auto;
+}
+
+.selected{
+    background:#343A40;
+    color:#FFFFE0;
+}
+
+.selected:hover{
+    background:#23272B;
+    color:#FFFFE0;
+}
+
+.title {
+    text-align: center;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                 0px 4px 3px rgba(0,0,0,0.1),
+                 0px 4px 3px rgba(0,0,0,0.1);
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+
+}
+
+h1,h3,.prompt {
+    color: white;
+}
+
+h1 {
+    font-weight:700;
+    font-size:5em;
+}
+
+hr {
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.prompt{
+    display: inline-block;
+    width:20%;
 }

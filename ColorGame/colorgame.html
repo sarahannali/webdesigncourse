@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="colorgame.css">
 
     <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
 
     <!-- Mobile Devices -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -30,9 +30,18 @@
 </head>
 
 <body>
-    <h1>THE RGB <span id="rgbDisplay">RGB</span> GAME</h1>
-
-    <p class="prompt">Pick a color!</p>
+    <section id="header" class="jumbotron text-center">
+    <div class="title">
+        <h3>THE</h3>
+        <h1><span id="rgbDisplay">RGB</span></h1>
+        <h3>GAME</h3>
+        <hr>
+        <button id="refresh" class="btn btn-dark">New Colors</button>
+        <span class="prompt">Pick a color!</span>
+        <button id="easy" class="btn btn-light">Easy</button>
+        <button id="hard" class="selected btn btn-light">Hard</button>
+    </div>
+    </section>
 
     <div class="colorsquares">
         <div class="square"></div>
