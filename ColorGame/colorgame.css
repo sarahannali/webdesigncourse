@@ -1,0 +1,12 @@
+.square{
+    width: 30%;
+    background: purple;
+    padding-top: 30%;
+    float:left;
+    margin: 1.66%;
+}
+
+.colorsquares{
+    max-width:60%;
+    margin:0 auto;
+}
